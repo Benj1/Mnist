@@ -41,7 +41,7 @@ test_data = df_test.to_numpy()
 correct = 0
 attempts = 0
 
-for row in train_data:
+for row in test_data:
   label, data = row[0], row[1:]/255
 
   # Make a prediction and compare to target
