@@ -13,7 +13,6 @@ model = torch.nn.Sequential(
         torch.nn.Linear(H1, H2),
         torch.nn.ReLU(),
         torch.nn.Linear(H2, D_out)
-        #torch.nn.Softmax(0)
     )
 
 # Train the model
